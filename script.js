@@ -2,5 +2,5 @@ var text = "Velociraptor is a genus of herbivorous ceratopsid dinosaur that firs
 var dinosaur = "triceratops"
 var dinosaurUpperCased = dinosaur.toUpperCase();
 var textReplace = text.replace ("Velociraptor", dinosaurUpperCased);
-console.log(textReplace);
-//Patryk, console.log(textReplace.length/2); nie pokazuje polowy tekstu, tylko dzieli ilosc znakow na pol :(
+var textSubstr = textReplace.substr(0,72);
+console.log(textSubstr);
